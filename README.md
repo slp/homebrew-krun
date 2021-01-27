@@ -1,9 +1,11 @@
-# Slp Krun
+# Homebrew repository for krunvm
+
+This is a Homebrew repository for [krunvm](https://github.com/slp/krunvm/) and its dependencies.
 
 ## How do I install these formulae?
-`brew install slp/krun/<formula>`
 
-Or `brew tap slp/krun` and then `brew install <formula>`.
+```
+brew tap slp/krun
+brew install krunvm
+```
 
-## Documentation
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
