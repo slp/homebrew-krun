@@ -13,6 +13,7 @@ class Buildah < Formula
 
   depends_on "go" => :build
   depends_on "go-md2man" => :build
+  depends_on "gpgme"
 
   def install
     system "make"
