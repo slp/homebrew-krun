@@ -7,8 +7,7 @@ class Krunvm < Formula
 
   bottle do
     root_url "https://dl.bintray.com/slp/bottles-krun"
-    cellar :any
-    sha256 "22a4667f0d1053aa18c64dcbc363721ff16dbefa789ca5a41832ff9a66c40815" => :arm64_big_sur
+    sha256 cellar: :any, arm64_big_sur: "b6b15dd1a5ebe9539f7f13866ecc40716dcf7b6adb0dc66b5bc84089e86721ce"
   end
 
   depends_on "rust" => :build
