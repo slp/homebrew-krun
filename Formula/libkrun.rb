@@ -7,7 +7,7 @@ class Libkrun < Formula
 
   bottle do
     root_url "https://dl.bintray.com/slp/bottles-krun"
-    sha256 cellar: :any, arm64_big_sur: "fb6400a6be6aa7da3f96873f5a5e895dfb9e8f05ffb484dbb4524ea9cc6936ae"
+    sha256 cellar: :any, arm64_big_sur: "e7dbbfb003de407f7a30558d6113c3f1da41782073bf6c0b64c2ca5ca1037fd1"
   end
 
   depends_on "rust" => :build
