@@ -7,8 +7,7 @@ class Buildah < Formula
 
   bottle do
     root_url "https://dl.bintray.com/slp/bottles-krun"
-    cellar :any
-    sha256 "c5f0c9b7bdcf6674b5bcf24d03c2572b6b1df0ece3f0deb5c66805c8190c6bcf" => :arm64_big_sur
+    sha256 cellar: :any, arm64_big_sur: "c5f0c9b7bdcf6674b5bcf24d03c2572b6b1df0ece3f0deb5c66805c8190c6bcf"
   end
 
   depends_on "go" => :build
