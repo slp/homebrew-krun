@@ -7,8 +7,7 @@ class Libkrunfw < Formula
 
   bottle do
     root_url "https://dl.bintray.com/slp/bottles-krun"
-    cellar :any
-    sha256 "158eaf6556dcde8ddf48332142bfdf94ec56f1967e0b9a960e57786d1a8304ee" => :arm64_big_sur
+    sha256 cellar: :any, arm64_big_sur: "158eaf6556dcde8ddf48332142bfdf94ec56f1967e0b9a960e57786d1a8304ee"
   end
 
   def install
