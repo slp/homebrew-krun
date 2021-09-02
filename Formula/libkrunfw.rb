@@ -5,11 +5,6 @@ class Libkrunfw < Formula
   sha256 "bebd2cf420e1027205e2a3ac9e69a26bd82285c35a4eca0389c66a22ecaf9ada"
   license "LGPL-2.0"
 
-  bottle do
-    root_url "https://dl.bintray.com/slp/bottles-krun"
-    sha256 cellar: :any, arm64_big_sur: "158eaf6556dcde8ddf48332142bfdf94ec56f1967e0b9a960e57786d1a8304ee"
-  end
-
   def install
     system "make", "PREFIX=#{prefix}", "install"
   end
