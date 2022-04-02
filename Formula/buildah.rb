@@ -1,8 +1,8 @@
 class Buildah < Formula
   desc "Tool that facilitates building OCI images"
   homepage "https://buildah.io"
-  url "https://github.com/slp/buildah/archive/v1.19.2.macos_unpriv.tar.gz"
-  sha256 "80a2e0899106da4e2b4ebf1f5135417533d57acd5f5643f58c422d91bff143a4"
+  url "https://github.com/slp/buildah/archive/v1.19.2.macos_unpriv-2.tar.gz"
+  sha256 "a666231e67ed1acc1993877bbef05b5deeb432ae7af6b8a58ec053fa293f1715"
   license "Apache-2.0"
 
   depends_on "go" => :build
