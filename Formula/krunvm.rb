@@ -1,8 +1,8 @@
 class Krunvm < Formula
   desc "Manage lightweight VMs created from OCI images"
   homepage "https://github.com/slp/krunvm"
-  url "https://github.com/slp/krunvm/archive/v0.1.4.tar.gz"
-  sha256 "0ed02ff10a04e40431b50121f292b0b6b4b625ca6a12196811cb5ebbba0ad53d"
+  url "https://github.com/slp/krunvm/archive/v0.1.5.tar.gz"
+  sha256 "ef31f19f8aa907d6555342fe67f2bdaa83987680553993403edf0e830a9da562"
   license "Apache-2.0"
 
   depends_on "rust" => :build
