@@ -12,6 +12,9 @@ class Buildah < Formula
   def install
     system "make"
     bin.install "bin/buildah" => "buildah"
+    mkdir_p etc/"containers"
+    etc.install "docs/samples/registries.conf" => "containers/registries.conf"
+    etc.install "tests/policy.json" => "containers/policy.json"
     man1.install Dir["docs/*.1"]
   end
 
