@@ -1,8 +1,8 @@
 class Libkrunfw < Formula
   desc "Dynamic library bundling a Linux kernel in a convenient storage format"
   homepage "https://github.com/slp/libkrunfw"
-  url "https://github.com/containers/libkrunfw/releases/download/v0.5/v0.5-with_prebuilts.tar.gz"
-  sha256 "bebd2cf420e1027205e2a3ac9e69a26bd82285c35a4eca0389c66a22ecaf9ada"
+  url "https://github.com/containers/libkrunfw/releases/download/v2.0.0/v2.0.0-with_macos_prebuilts.tar.gz"
+  sha256 "a7936dc9633961f163119bbcfb8805f4aba55b07ae27e13add596d966fb81a08"
   license "LGPL-2.0"
 
   def install
