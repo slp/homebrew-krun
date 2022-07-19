@@ -10,6 +10,6 @@ The formulae and bottles on this repository only support Apple Silicon-based dev
 
 ```
 brew tap slp/krun
-brew install krunvm
+brew install -s buildah libkrunfw libkrun krunvm
 ```
 
