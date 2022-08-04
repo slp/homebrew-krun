@@ -1,8 +1,8 @@
 class Libkrunfw < Formula
   desc "Dynamic library bundling a Linux kernel in a convenient storage format"
   homepage "https://github.com/slp/libkrunfw"
-  url "https://github.com/containers/libkrunfw/releases/download/v3.1.0/v3.1.0-with_macos_prebuilts.tar.gz"
-  sha256 "e93299160d6a0660c8cfaa2f338d85467b596adc559c2568925d851fa064bdb8"
+  url "https://github.com/containers/libkrunfw/releases/download/v3.3.0/v3.3.0-with_macos_prebuilts.tar.gz"
+  sha256 "f56a7ddcf0be3c4a94a561c87ba0549df0cca45bd82fcac61a34d4da75925156"
   license all_of: ["GPL-2.0-only", "LGPL-2.1-only"]
 
   # libkrun, our only consumer, only supports Hypervisor.framework on arm64
