@@ -5,6 +5,11 @@ class Buildah < Formula
   sha256 "3c29de975e8e79858a3af6278ebe5efe6140062d92abeee662b96105927d29e9"
   license "Apache-2.0"
 
+  bottle do
+    root_url "https://raw.githubusercontent.com/slp/homebrew-krun/master/bottles"
+    sha256 cellar: :any, arm64_monterey: "d50ab75991880835b9c7d460acfaf166d0d61cbf67709ac57a7e8bc374592861"
+  end
+
   depends_on "go" => :build
   depends_on "go-md2man" => :build
   depends_on "gpgme"
