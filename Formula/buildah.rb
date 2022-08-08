@@ -1,8 +1,8 @@
 class Buildah < Formula
   desc "Tool that facilitates building OCI images"
   homepage "https://buildah.io"
-  url "https://github.com/containers/buildah/archive/refs/tags/v1.26.2.tar.gz"
-  sha256 "a5e95c7b50e31db80b07149cc4bd7ddbe43c2b8ef6add0f58333b250731c1168"
+  url "https://github.com/containers/buildah/archive/refs/tags/v1.26.4.tar.gz"
+  sha256 "3c29de975e8e79858a3af6278ebe5efe6140062d92abeee662b96105927d29e9"
   license "Apache-2.0"
 
   depends_on "go" => :build
@@ -10,11 +10,7 @@ class Buildah < Formula
   depends_on "gpgme"
 
   # All these patches have been committed upstream, we're just cherry-picking
-  # or backporting them to v1.26.2.
-  patch do
-    url "https://raw.githubusercontent.com/slp/homebrew-krun/cd74e3bd5196134d0219d918651e6b8bbf64ead8/patches/buildah/0001-Update-vendor-of-containers-storage.patch"
-    sha256 "4616b4c41d5c019caa8f691d34f42ea93a98dab30c85535069a85f99f7553829"
-  end
+  # or backporting them to v1.26.4.
   patch do
     url "https://raw.githubusercontent.com/slp/homebrew-krun/cd74e3bd5196134d0219d918651e6b8bbf64ead8/patches/buildah/0002-run_unix-return-a-valid-DefaultNamespaceOptions.patch"
     sha256 "02d2c7743e5d200eecd41e0b79e2374635797c38347fc3dd409df51a868c2638"
