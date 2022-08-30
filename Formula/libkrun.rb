@@ -1,13 +1,13 @@
 class Libkrun < Formula
   desc "Dynamic library providing KVM-based process isolation capabilities"
   homepage "https://github.com/containers/libkrun"
-  url "https://github.com/containers/libkrun/releases/download/v1.4.2/v1.4.2-with_macos_prebuilts.tar.gz"
-  sha256 "d787b04f515a99bc3ac4e0edfc662d8b2dcc9f8051686104a7513308b133566c"
+  url "https://github.com/containers/libkrun/releases/download/v1.4.3/v1.4.3-with_macos_prebuilts.tar.gz"
+  sha256 "c1ec0cd33a98b149425d39fcecd9680a161a622f03db2fcee0be856fa2ff6391"
   license "Apache-2.0"
 
   bottle do
     root_url "https://raw.githubusercontent.com/slp/homebrew-krun/master/bottles"
-    sha256 cellar: :any, arm64_monterey: "f71e949c990263096d2988c2cf6ecaf6587228d31d15ebf8242f9b16fbe8c8de"
+    sha256 cellar: :any, arm64_monterey: "b25e0cd9225f523046c327508ae76e21bc2c9ee353a04797bd14b62d740e09cc"
   end
 
   depends_on "rust" => :build
