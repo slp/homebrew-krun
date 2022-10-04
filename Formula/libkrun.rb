@@ -7,7 +7,7 @@ class Libkrun < Formula
 
   bottle do
     root_url "https://raw.githubusercontent.com/slp/homebrew-krun/master/bottles"
-    sha256 cellar: :any, arm64_monterey: "a4bf0db26962870a370db58c3b87ebce25d24af62e0aecf72cc969392c92a9a6"
+    sha256 cellar: :any, arm64_monterey: "5c43baba790f3e2040fd440e52cc8949b64da904fd20f1c339eff4c29499c0e6"
   end
 
   depends_on "rust" => :build
