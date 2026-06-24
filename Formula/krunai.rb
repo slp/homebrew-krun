@@ -21,7 +21,7 @@ class Krunai < Formula
   depends_on "qemu"
 
   def install
-    ENV["LIBCLANG_PATH"] = Formula["llvm"].opt_lib.to_s
+    ENV["LIBCLANG_PATH"] = formula_opt_lib("llvm")
     homebrew_lib = ENV["HOMEBREW_PREFIX"] + "/lib"
     system "make"
     MachO::Tools.add_rpath("target/release/krunai", homebrew_lib)
