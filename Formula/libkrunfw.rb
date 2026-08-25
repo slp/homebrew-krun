@@ -2,7 +2,6 @@ class Libkrunfw < Formula
   desc "Dynamic library bundling a Linux kernel in a convenient storage format"
   homepage "https://github.com/containers/libkrunfw"
   url "https://github.com/containers/libkrunfw/releases/download/v5.5.0/libkrunfw-prebuilt-aarch64.tgz"
-  version "5.5.0"
   sha256 "5bfae6efee63dbdf04a8fac2a69d772d9f900af2f54c4429b4acdfd6d86b9979"
   license all_of: ["GPL-2.0-only", "LGPL-2.1-only"]
 
