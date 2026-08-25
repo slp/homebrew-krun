@@ -6,9 +6,10 @@ class Libkrunfw < Formula
   license all_of: ["GPL-2.0-only", "LGPL-2.1-only"]
 
   bottle do
-    root_url "https://github.com/slp/homebrew-krun/releases/download/libkrunfw-5.5.0"
-    sha256 cellar: :any, arm64_tahoe:   "c106c1f8cf2c498caf925a6771a69ad44a50ecd128043d06926172b8b8848214"
-    sha256 cellar: :any, arm64_sequoia: "7bd32ab2c6f5306879f90ae5a77d6950030f04096d1ab24f9e3842108e984571"
+    root_url "https://github.com/libkrun/homebrew-krun/releases/download/libkrunfw-5.5.0"
+    rebuild 1
+    sha256 cellar: :any, arm64_tahoe:   "50847584b0f6c17eee6026b87bb975a3971f0ad329e036eac595b68f06b572e1"
+    sha256 cellar: :any, arm64_sequoia: "e6ff72e62eaa41b48ea6accdf3640b5da3a247d7679ad2a612aabe9a06fce4e5"
   end
 
   # libkrun, our only consumer, only supports Hypervisor.framework on arm64
